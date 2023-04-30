@@ -1,0 +1,10 @@
+.page-404 {
+    text-align: center;
+    padding: 200px 0;
+}
+.page-404--title {
+    font-size: 40px;
+    font-weight: 600;
+    color: #1F1E25;
+    margin-bottom: 28px;
+}

@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+}
+.header--logo {
+    text-decoration: none;
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    color: #1F1E25;
+    font-weight: bold;
+    font-size: 20px;
+}
+.header--logo-img {
+    margin-right: 12px;
+    width: 24px;
+    height: 24px;
+}
+.header--nav {
+    display: flex;
+}
+.header--nav-btn {
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: #707C87;
+    font-size: 16px;
+    font-weight: normal;
+    transition: .2s;
+}
+.header--nav-btn.active {
+    color: #2C36F2;
+}
+.header--nav-btn:hover {
+    color: #2C36F2;
+}
+.header--auth-btn {
+    text-decoration: none;
+    font-size: 16px;
+    color: #707C87;
+    display: flex;
+    align-items: center;
+}
+.header--auth-icon {
+    display: inline-block;
+    margin-right: 16px;
+}
