@@ -3,7 +3,6 @@ import auth from "../images/icon-auth.svg";
 import './Header.css';
 import { Link, NavLink } from "react-router-dom"
 
-
 function Header() {
 
     const navLinks = [
@@ -37,11 +36,6 @@ function Header() {
                     <NavLink key={index} to={item.url} className={({ isActive }) => (isActive ? 'header--nav-btn active' : 'header--nav-btn')}>{item.title}</NavLink>
                 ))}
 
-
-                {/*<NavLink to="/" className={({ isActive }) => (isActive ? 'header--nav-btn active' : 'header--nav-btn')}>Головна</NavLink>*/}
-                {/*<NavLink to="/converter" className={({ isActive }) => (isActive ? 'header--nav-btn active' : 'header--nav-btn')}>Конвертер валют</NavLink>*/}
-                {/*<NavLink to="/" className="header--nav-btn">Контакти</NavLink>*/}
-                {/*<NavLink to="/" className="header--nav-btn">Задати питання</NavLink>*/}
             </nav>
             <nav className="header--auth">
                 <Link to="/" className="header--auth-btn"> <img src={auth} className="header--auth-icon" alt="->" />Особистий кабінет</Link>
